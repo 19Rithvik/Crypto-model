@@ -103,7 +103,10 @@
   }
   .coin { 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    /* background-color: red;  */
+  }
+  .coin img {
   }
   .coin-price{
    width: 0;
@@ -111,11 +114,10 @@
   .coin-percent{
     margin: 0;
   }
-  .coin-data{
+  .coin-data {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     align-items:flex-start;
-     padding-left: 35%; 
   }
 }
